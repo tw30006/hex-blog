@@ -1,0 +1,248 @@
+@use "../breakpoints.scss" as bp;
+.serve-container {
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 80px 0;
+  @include bp.mobile() {
+    padding: 0 12px;
+  }
+}
+.plan-list {
+  padding: 0 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  @include bp.mobile() {
+    padding: 0;
+    gap: 32px;
+  }
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  aspect-ratio: 1076/320;
+  @include bp.mobile() {
+    flex-direction: column;
+  }
+}
+.item-image {
+  aspect-ratio: 636/320;
+}
+.item-image img {
+  z-index: 1;
+}
+.item-content {
+  width: 480px;
+  background-color: #ffffff;
+  z-index: 2;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @include bp.mobile() {
+    width: 100%;
+  }
+}
+.item-content:nth-child(even) {
+  margin-left: -3%;
+  @include bp.mobile() {
+    margin-left: 0;
+  }
+}
+.item-content-pc {
+  width: 480px;
+  background-color: #ffffff;
+  z-index: 2;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-right: -3%;
+  @include bp.mobile() {
+    margin-right: 0;
+    display: none;
+  }
+}
+.item-content-mb {
+  width: 100%;
+  display: none;
+  @include bp.mobile() {
+    display: flex;
+  }
+}
+.item-content h3,
+.item-content-pc h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.item-content p,
+.item-content-pc p {
+  font-weight: 500;
+  color: #4b4b4b;
+}
+.connect {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: flex-end;
+  @include bp.mobile() {
+    flex-direction: column;
+    align-items: end;
+  }
+}
+.connect span {
+  font-size: 28px;
+  font-weight: 700;
+}
+.connect-image {
+  width: 40px;
+  height: 40px;
+}
+.success-case_container {
+  padding: 80px 0;
+  max-width: 1296px;
+  margin: 0 auto;
+  @include bp.mobile() {
+    padding: 0 12px;
+  }
+}
+.success-case-banner {
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+  @include bp.mobile() {
+    flex-direction: column;
+  }
+}
+.banner-bg {
+  width: 745px;
+  height: 626px;
+  background-color: #ededed;
+  aspect-ratio: 697/578;
+  padding: 20px;
+  z-index: 1;
+  @include bp.mobile() {
+    width: 100%;
+    height: 500px;
+    padding: 24px;
+  }
+}
+.banner-bg img {
+  margin: 0 auto;
+  @include bp.mobile() {
+    /* height: 400px; */
+  }
+}
+.success-case-banner-content {
+  z-index: 10;
+}
+.banner-content {
+  width: 526px;
+  height: 296px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 80px 40px;
+  margin-left: -26%;
+  z-index: 10;
+  @include bp.mobile() {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    padding: 40px 24px;
+  }
+}
+.banner-content p,
+.reserve-content p {
+  font-weight: 700;
+}
+.banner-content p > span {
+  color: #0027d5;
+}
+.reserve-list {
+  width: 526px;
+  height: 312px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 80px 40px;
+  margin-top: -9%;
+  margin-left: 5%;
+  z-index: 15;
+  @include bp.mobile() {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 40px 24px;
+  }
+}
+.reserve-btn {
+  border: 1px solid #0027d5;
+  color: #0027d5;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.case-list {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 24px;
+  margin-top: 24px;
+  @include bp.mobile() {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+.case-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.case-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.case-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.case-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bottom-line {
+  border: 1px solid #4b4b4b;
+}
+.check-item img {
+  width: 16px;
+  height: 16px;
+}
+.check-item span {
+  color: #4b4b4b;
+}
+.go-podcast-btn {
+  align-self: start;
+  color: #4b4b4b;
+}
