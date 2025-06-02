@@ -71,7 +71,7 @@
       </li>
     </ul>
   </div>
-  <section class="serve-container">
+  <section class="container">
     <h2>專業服務與方案</h2>
     <ul class="plan-list">
       <li class="item item-one">
@@ -156,7 +156,7 @@
       </div>
     </div>
   </section>
-  <section class="success-case_container">
+  <section class="container">
     <h2>職涯諮詢成功案例</h2>
     <div class="success-case-banner">
       <div class="banner-bg">
@@ -324,5 +324,81 @@
         <button type="submit" class="btn subscribe-email-btn">啟動訂閱</button>
       </div>
     </div>
+  </div>
+  <div class="content-link-container">
+    <h2>與我聯繫</h2>
+    <ul class="content-links">
+      <li class="link">
+        <div class="link-title">
+          <span>
+            alysewang@hexschool.com
+            <span>合作洽談</span>
+          </span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+      <li class="link">
+        <div class="link-title">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon.png?raw=true"
+            alt="youtube logo"
+          />
+          <span>Youtube 職涯諮詢室</span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+      <li class="link">
+        <div class="link-title">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-1.png?raw=true"
+            alt="podcast logo"
+          />
+          <span>podcast 職涯諮詢室</span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+      <li class="link">
+        <div class="link-title">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-2.png?raw=true"
+            alt="Facebook logo"
+          />
+          <span>Facebook 前端社群</span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+      <li class="link">
+        <div class="link-title">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/icons8-linkedin%201.png?raw=true"
+            alt="linkedin logo"
+          />
+          <span>linkedin 職涯交流</span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+      <li class="link">
+        <div class="link-title">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-3.png?raw=true"
+            alt="Instagram logo"
+          />
+          <span>Instagram 日常分享</span>
+        </div>
+        <div class="arrow-right">
+          <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
