@@ -423,12 +423,5 @@
     padding: 0 24px;
   }
 }
-.social-links {
-  display: flex;
-  align-items: center;
-  img {
-    max-width: 44px;
-    height: 44px;
-  }
-}
+
 </style>
