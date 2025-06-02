@@ -1,5 +1,76 @@
 <script setup></script>
 <template>
+  <div class="banner banner-top">
+    <picture>
+      <source
+        media="(min-width: 769px)"
+        srcset="
+          https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section.png?raw=true
+        "
+      />
+      <img
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/Hero%20Section.png?raw=true"
+        alt="banner-one"
+        class="banner-one"
+      />
+    </picture>
+    <div class="banner-top-container">
+      <div class="banner-top-container-content">
+        <h1>Alyse Wang</h1>
+        <span>前端工程師 & 職涯諮詢師</span>
+      </div>
+    </div>
+  </div>
+  <div class="introduce-container">
+    <p>嗨，我是Alyse一名深耕前端技術的工程師。</p>
+    <p>
+      擅長 React、Vue
+      等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！
+    </p>
+    <ul class="social-links">
+      <li>
+        <a href="#">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon.png?raw=true"
+            alt="youtubeIcon"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-1.png?raw=true"
+            alt="podcastIcon"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-2.png?raw=true"
+            alt="facebookIcon"
+          />
+        </a>
+      </li>
+      <li class="social-link">
+        <a href="#">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/icons8-linkedin%201.png?raw=true"
+            alt="linkedinIcon"
+          />
+        </a>
+      </li>
+      <li class="social-link">
+        <a href="#">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/onlyIcon-3.png?raw=true"
+            alt="InstagramIcon"
+            class="ig-img"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
   <section class="serve-container">
     <h2>專業服務與方案</h2>
     <ul class="plan-list">
@@ -120,6 +191,7 @@
         </div>
       </div>
     </div>
+
     <ul class="case-list">
       <li class="case-item">
         <div class="case-image">
@@ -223,4 +295,34 @@
       </li>
     </ul>
   </section>
+  <div class="banner banner-top">
+    <picture>
+      <source
+        media="(min-width: 769px)"
+        srcset="
+          https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo9.png?raw=true
+        "
+      />
+      <img
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/index/photo9.png?raw=true"
+        alt="banner-one"
+        class="banner-one"
+      />
+    </picture>
+    <div class="subscribe-email-container">
+      <div class="subscribe-email">
+        <h2>訂閱電子報</h2>
+        <p>
+          立即訂閱，搶先掌握
+          <span>前端 x 職涯</span>
+          的獨家資訊！
+        </p>
+        <div class="subscribe-email-form">
+          <input type="text" placeholder="請輸入您的大名" />
+          <input type="email" placeholder="請輸入您的電子信箱" />
+        </div>
+        <button type="submit" class="btn subscribe-email-btn">啟動訂閱</button>
+      </div>
+    </div>
+  </div>
 </template>

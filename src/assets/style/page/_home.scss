@@ -10,6 +10,33 @@
     padding: 0 12px;
   }
 }
+.introduce-container {
+  background-color: #ffffff;
+  padding: 80px 40px;
+  //   width: 1077px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  z-index: 10;
+  margin-top: -150px;
+  margin-left: 40%;
+  @include bp.mobile() {
+    padding: 24px 40px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    @include bp.mobile() {
+      font-size: 24px;
+    }
+  }
+}
 .plan-list {
   padding: 0 110px;
   display: flex;
@@ -245,4 +272,55 @@
 .go-podcast-btn {
   align-self: start;
   color: #4b4b4b;
+}
+.subscribe-email {
+  background-color: #ffffff;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @include bp.mobile() {
+    padding: 40px 24px;
+  }
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include bp.mobile() {
+      padding: 12px;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  p > span {
+    color: #0027d5;
+  }
+  &-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    input {
+      width: 100%;
+      background-color: #f1f1f1;
+      padding: 8px 16px;
+      ::placeholder {
+        color: #4b4b4b;
+      }
+    }
+  }
+  &-btn {
+    background-color: #ffffff;
+    color: #0027d5;
+    border: 1px solid #0027d5;
+    font-weight: 700;
+    font-size: 16px;
+    align-self: start;
+  }
 }
