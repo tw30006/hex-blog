@@ -52,6 +52,7 @@
       <button type="button" class="banner-bottom-content-btn">閱讀內文</button>
     </div>
   </div>
+  
   <section class="container">
     <div class="search-bar">
       <img src="../assets/image/search.png" alt="搜尋" />

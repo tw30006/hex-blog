@@ -2,6 +2,11 @@
 
 .article {
   color: #000000;
+  &-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
   &-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
