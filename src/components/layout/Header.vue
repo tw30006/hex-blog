@@ -8,3 +8,17 @@
     </ul>
   </header>
 </template>
+
+<style scoped lang="scss">
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+  }
+}
+</style>

@@ -416,15 +416,13 @@
       </div>
     </div>
   </div>
-  <div class="content-link-container">
+  <div class="container">
     <h2>與我聯繫</h2>
     <ul class="content-links">
       <li class="link">
         <div class="link-title">
-          <span>
-            alysewang@hexschool.com
-            <span>合作洽談</span>
-          </span>
+          <span>alysewang@hexschool.com</span>
+          <span>合作洽談</span>
         </div>
         <div class="arrow-right">
           <img src="../assets/image/arrow-right.png" alt="箭頭圖示" />

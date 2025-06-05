@@ -374,6 +374,9 @@
     <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
     </svg>
   </div>
+  
+  </section>
+  <div class="line"></div>
   <div class="theFooter-content">
     <span>alysewang@hexschool.com</span>
     <ul class="social-links">
@@ -408,21 +411,4 @@
       </li>
     </ul>
   </div>
-  </section>
 </template>
-<style scoped>
-
-.theFooter-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 0;
-  max-width: 1296px;
-  margin: 0 auto;
-  @media (max-width: 767px) {
-    display: none;
-    padding: 0 24px;
-  }
-}
-
-</style>
