@@ -49,24 +49,12 @@
     aspect-ratio: 1/1;
   }
 }
-/* .banner-one {
-        width: 50%;
-      } */
-.nav-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-  a {
-    font-size: 28px;
-    font-weight: 700;
-    color: #000000;
-  }
-}
+
 .banner-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
+  border-top: 1px solid #6c757d;
   border-bottom: 1px solid #6c757d;
   @include bp.mobile {
     grid-template-columns: 1fr;
@@ -105,8 +93,6 @@
         }
       }
       .tag-popular {
-        // width: 88px;
-        // height: 24px;
         padding: 6px 12px;
         border-radius: 40px;
         background-color: #0027d5;

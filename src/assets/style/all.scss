@@ -2,5 +2,6 @@
 @use "_base.scss";
 @use "_breakpoints.scss";
 @use "components/_article.scss";
-@use "components/header.scss";
+@use "components/_banner.scss";
 @use "page/_home.scss";
+@use "page/_articleDetail.scss";
