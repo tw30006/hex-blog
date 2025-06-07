@@ -1,4 +1,10 @@
-<script setup></script>
+<script setup>
+import { useRouter } from "vue-router";
+const router = useRouter();
+function goToArticleDetail() {
+  router.push("/detail");
+}
+</script>
 <template>
   <div class="banner banner-top">
     <picture>
@@ -187,7 +193,9 @@
             Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」
             其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
           </p>
-          <button type="button" class="article-btn">閱讀內文</button>
+          <button type="button" class="article-btn" @click="goToArticleDetail">
+            閱讀內文
+          </button>
         </div>
       </li>
       <li class="article-item">
@@ -215,7 +223,9 @@
             面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
           </p>
         </div>
-        <button type="button" class="article-btn">閱讀內文</button>
+        <button type="button" class="article-btn" @click="goToArticleDetail">
+          閱讀內文
+        </button>
       </li>
       <li class="article-item">
         <picture class="article-image">
@@ -242,7 +252,9 @@
             CSS，打造兼具美感與功能性的網頁。
           </p>
         </div>
-        <button type="button" class="article-btn">閱讀內文</button>
+        <button type="button" class="article-btn" @click="goToArticleDetail">
+          閱讀內文
+        </button>
       </li>
     </ul>
   </section>

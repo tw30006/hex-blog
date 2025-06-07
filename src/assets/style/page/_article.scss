@@ -74,6 +74,11 @@
     border: 1px solid #000000;
     border-radius: 40px;
     padding: 8px 16px;
+    cursor: pointer;
+    &:hover {
+      background-color: #0027d5;
+      color: white;
+    }
   }
 }
 .search-bar {

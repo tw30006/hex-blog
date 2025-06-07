@@ -112,6 +112,11 @@
       border-radius: 40px;
       padding: 8px 16px;
       margin-top: 16px;
+      cursor: pointer;
+      &:hover {
+        background-color: #0027d5;
+        color: white;
+      }
     }
   }
 }

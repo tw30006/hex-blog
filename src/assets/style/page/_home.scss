@@ -334,6 +334,11 @@
     font-weight: 700;
     font-size: 16px;
     align-self: start;
+    cursor: pointer;
+    &:hover {
+      background-color: #0027d5;
+      color: white;
+    }
   }
 }
 
