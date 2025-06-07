@@ -4,15 +4,15 @@ import Article from "./components/Article.vue";
 import Detail from "./components/Detail.vue";
 const routes = [
   {
-    path: "/",
+    path: "/hex-blog",
     component: HomeView,
   },
   {
-    path: "/article",
+    path: "/hex-blog/article",
     component: Article,
   },
   {
-    path: "/detail",
+    path: "/hex-blog/detail",
     component: Detail,
   },
 ];

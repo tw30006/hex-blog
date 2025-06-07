@@ -2,7 +2,7 @@
 import { useRouter } from "vue-router";
 const router = useRouter();
 function goToArticleDetail() {
-  router.push("/detail");
+  router.push("/hex-blog/detail");
 }
 </script>
 <template>
